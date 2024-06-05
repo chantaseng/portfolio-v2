@@ -8,3 +8,16 @@
   box-sizing: border-box;
   background-color: black;
 }
+
+/* .img-scroll {
+  object-fit: cover;
+  object-position: top center;
+  transition: all 2s ease-in-out;
+  border-radius: 0.5rem;
+} */
+
+@layer components {
+  .img--scroll {
+    @apply transition ease-in delay-150 hover:-translate-y-1/2  duration-[5000ms];
+  }
+}
