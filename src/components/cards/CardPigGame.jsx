@@ -67,15 +67,15 @@ const CardPigGame = () => {
             <br></br>
 
             <div className="font-bold text-2xl">
-              <span className="flex">
+              <span className="flex items-center">
                 <Plus />
                 HTML
               </span>
-              <span className="flex">
+              <span className="flex items-center">
                 <Plus />
                 CSS
               </span>
-              <span className="flex">
+              <span className="flex items-center">
                 <Plus />
                 Javascript
               </span>

@@ -71,15 +71,15 @@ const CardWeather = () => {
             <br></br>
 
             <div className="font-bold text-2xl">
-              <span className="flex">
+              <span className="flex items-center">
                 <Plus />
                 React
               </span>
-              <span className="flex">
+              <span className="flex items-center">
                 <Plus />
                 TailwindCSS
               </span>
-              <span className="flex">
+              <span className="flex items-center">
                 <Plus />
                 TypeScript
               </span>
