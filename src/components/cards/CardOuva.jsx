@@ -2,15 +2,13 @@ import { useState } from 'react';
 import homepage from '../../assets/ouva-img/homepage.png';
 import destination from '../../assets/ouva-img/destination.png';
 import activity from '../../assets/ouva-img/activity-description.png';
-import cart from '../../assets/ouva-img/cart.png';
-import trip from '../../assets/ouva-img/my-trip-page.png';
 import ouva from '../../assets/ouva-img/favicon.png';
 import { ChevronLeft, ChevronRight, Plus } from 'lucide-react';
 
 const CardOuva = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const slides = [homepage, destination, activity, cart, trip];
+  const slides = [homepage, destination, activity];
 
   const handlePrev = () => {
     setCurrentIndex((prevIndex) =>
@@ -27,12 +25,12 @@ const CardOuva = () => {
   return (
     <div className="w-full h-full mb-16">
       <div className="mx-8">
-        <div className="flex flex-col md:flex-row md:gap-8 md:w-full md:h-[500px]">
+        <div className="flex flex-col md:flex-row md:gap-8 md:w-full md:h-[500px] xl:h-[700px]">
           <div className="relative">
             <a href="https://github.com/chantaseng/ouva" target="blank">
               <img
                 src={slides[currentIndex]}
-                className="h-[300px] w-full object-cover object-top md:h-[500px] md:w-[1000px]"
+                className="h-[300px] w-full object-cover object-top md:h-[500px] md:w-[1000px] xl:h-[700px] xl:w-[1400px]"
                 alt="Ouva app"
               />
             </a>
@@ -56,7 +54,7 @@ const CardOuva = () => {
           </div>
 
           <div className="text-white mt-4 md:mt-0 md:flex md:flex-col md:justify-between">
-            <div className="md:w-[400px]">
+            <div className="md:w-[400px] xl:w-[500px]">
               <h1 className="text-5xl md:text-6xl mb-2 uppercase flex items-center">
                 Ouva <img className="ml-4" src={ouva} width={60} height={30} />
               </h1>

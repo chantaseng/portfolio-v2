@@ -12,7 +12,7 @@ const CardComidaEats = () => {
   return (
     <div className="w-full h-full mb-16">
       <div className="mx-8">
-        <div className="flex flex-col md:flex-row md:gap-8 md:w-full md:h-[500px]">
+        <div className="flex flex-col md:flex-row md:gap-8 md:w-full md:h-[500px] xl:h-[700px]">
           <div className="md:overflow-hidden">
             <a
               href="https://comida-food-ordering-app-frontend.onrender.com"
@@ -20,7 +20,12 @@ const CardComidaEats = () => {
             >
               <img
                 src={comidaeats}
-                className="md:img--scroll"
+                className="block xl:hidden"
+                alt="ComidaEats front page"
+              />
+              <img
+                src={comidaeats}
+                className="hidden xl:block"
                 alt="ComidaEats front page"
               />
             </a>

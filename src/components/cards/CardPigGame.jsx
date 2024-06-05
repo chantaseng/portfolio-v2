@@ -24,12 +24,12 @@ const CardPigGame = () => {
   return (
     <div className="w-full h-full mb-16">
       <div className="mx-8">
-        <div className="flex flex-col md:flex-row-reverse md:gap-8 md:w-full md:h-[500px]">
+        <div className="flex flex-col md:flex-row-reverse md:gap-8 md:w-full md:h-[500px] xl:h-[700px]">
           <div className="relative">
             <a href="https://pig-game-chantaseng.netlify.app" target="blank">
               <img
                 src={slides[currentIndex]}
-                className="h-[300px] w-full md:h-[500px] object-cover"
+                className="h-[300px] w-full md:h-[500px] xl:h-[700px] object-cover"
                 alt="Pig game images"
               />
             </a>
@@ -53,7 +53,7 @@ const CardPigGame = () => {
           </div>
 
           <div className="text-white mt-4 md:mt-0 md:flex md:flex-col md:justify-between">
-            <div className="md:w-[400px]">
+            <div className="md:w-[400px] xl:w-[500px]">
               <h1 className="text-5xl md:text-6xl mb-2 uppercase">
                 Pig Game 🐷
               </h1>
