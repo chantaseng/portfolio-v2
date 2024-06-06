@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail } from 'lucide-react';
 const GetInTouch = () => {
   return (
     <div id="getInTouch">
-      <div className="w-full h-60"></div>
+      <div className="w-full h-28"></div>
       <div className="p-[30px] flex justify-center items-center">
         <div className="text-white text-center text-2xl">
           Get in touch, let&apos;s work together!
@@ -23,7 +23,7 @@ const GetInTouch = () => {
           <Mail className="mr-8 cursor-pointer" strokeWidth={1.5} />
         </a>
       </div>
-      <div className="w-full h-60"></div>
+      <div className="w-full h-28"></div>
     </div>
   );
 };

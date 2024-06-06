@@ -9,14 +9,13 @@ const BackToTopButton = () => {
   };
 
   return (
-    <div
-      onClick={scrollToTop}
-      className="text-gray-500 flex justify-center items-center cursor-pointer"
-    >
-      <span className="mr-2">
-        <MoveUp />
-      </span>
-      <span>Back to Top</span>
+    <div className="text-gray-500 py-[60px]">
+      <div onClick={scrollToTop} className="flex justify-center items-center">
+        <span className="mr-2 cursor-pointer">
+          <MoveUp />
+        </span>
+        <span className="cursor-pointer">Back to Top</span>
+      </div>
     </div>
   );
 };
