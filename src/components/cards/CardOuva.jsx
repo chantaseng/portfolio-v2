@@ -74,15 +74,19 @@ const CardOuva = () => {
             <div className="font-bold text-2xl">
               <span className="flex items-center">
                 <Plus />
-                React
+                Ruby
               </span>
               <span className="flex items-center">
                 <Plus />
-                TailwindCSS
+                Sass
               </span>
               <span className="flex items-center">
                 <Plus />
-                TypeScript
+                Javascript
+              </span>
+              <span className="flex items-center">
+                <Plus />
+                Ruby on Rails
               </span>
             </div>
           </div>
