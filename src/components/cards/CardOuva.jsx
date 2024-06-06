@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import homepage from '../../assets/ouva-img/homepage.png';
-import destination from '../../assets/ouva-img/destination.png';
-import activity from '../../assets/ouva-img/activity-description.png';
-import ouva from '../../assets/ouva-img/favicon.png';
+import homepage from '../../assets/ouva/homepage.png';
+import destination from '../../assets/ouva/destination.png';
+import activity from '../../assets/ouva/activity-description.png';
+import ouva from '../../assets/ouva/favicon.png';
 import { ChevronLeft, ChevronRight, Plus } from 'lucide-react';
 
 const CardOuva = () => {
