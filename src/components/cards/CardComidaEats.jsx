@@ -40,18 +40,17 @@ const CardComidaEats = () => {
                 ComidaEats is a food ordering application where you can grab
                 your favorite food in cities like Toronto or Montreal.
               </p>
-              <span className="pr-2">Instructions</span>
               <span className="cursor-pointer">
                 {isReadMore ? (
                   <>
                     <Content />
                     <span className="underline" onClick={toggleReadMore}>
-                      Read less
+                      Close
                     </span>
                   </>
                 ) : (
                   <span className="underline" onClick={toggleReadMore}>
-                    Read more
+                    Intructions
                   </span>
                 )}
               </span>

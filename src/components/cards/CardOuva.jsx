@@ -2,7 +2,6 @@ import { useState } from 'react';
 import homepage from '../../assets/ouva/homepage.png';
 import destination from '../../assets/ouva/destination.png';
 import activity from '../../assets/ouva/activity-description.png';
-import ouva from '../../assets/ouva/favicon.png';
 import { ChevronLeft, ChevronRight, Plus } from 'lucide-react';
 
 const CardOuva = () => {
@@ -56,7 +55,7 @@ const CardOuva = () => {
           <div className="text-white mt-4 md:mt-0 md:flex md:flex-col md:justify-between">
             <div className="md:w-[400px] xl:w-[500px]">
               <h1 className="text-5xl md:text-6xl mb-2 uppercase flex items-center font-bold">
-                Ouva <img className="ml-4" src={ouva} width={60} height={30} />
+                Ouva 🌎
               </h1>
               <p className="mb-2">
                 OUVA is a travel planning application for travel enthusiasts.
