@@ -23,7 +23,7 @@ const CardWeather = () => {
   };
 
   return (
-    <div className="w-full h-full mb-16">
+    <div className="w-full h-full mb-24">
       <div className="mx-8">
         <div className="flex flex-col md:flex-row-reverse md:gap-8 md:w-full md:h-[500px] xl:h-[700px]">
           <div className="relative">
@@ -58,7 +58,7 @@ const CardWeather = () => {
 
           <div className="text-white mt-4 md:mt-0 md:flex md:flex-col md:justify-between">
             <div className="md:w-[400px]">
-              <h1 className="text-5xl md:text-6xl mb-2 uppercase">
+              <h1 className="text-5xl md:text-6xl mb-2 uppercase font-bold">
                 Weather Forecast 🌦️
               </h1>
               <p className="mb-2">
@@ -70,7 +70,7 @@ const CardWeather = () => {
             <br></br>
             <br></br>
 
-            <div className="font-bold text-2xl">
+            <div className="font-bold text-4xl">
               <span className="flex items-center">
                 <Plus />
                 React

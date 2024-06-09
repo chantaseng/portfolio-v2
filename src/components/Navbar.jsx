@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className="w-full mx-auto flex justify-between items-center py-6 px-5">
       <h2 className="text-white font-bold cursor-pointer">William Chan</h2>
       <Link to="#getInTouch" smooth>
-        <span className="text-white font-bold cursor-pointer">
+        <span className="text-white font-bold cursor-pointer hover:underline">
           Get In Touch
         </span>
       </Link>
