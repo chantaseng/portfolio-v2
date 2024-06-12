@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import landing from '../../assets/pig-game/landing.png';
 import start from '../../assets/pig-game/start-game.png';
 import playing from '../../assets/pig-game/playing.png';
 import winner from '../../assets/pig-game/winner.png';
@@ -7,7 +8,7 @@ import { ChevronLeft, ChevronRight, Plus } from 'lucide-react';
 const CardPigGame = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const slides = [start, playing, winner];
+  const slides = [landing, start, playing, winner];
 
   const handlePrev = () => {
     setCurrentIndex((prevIndex) =>
