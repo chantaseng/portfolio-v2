@@ -15,19 +15,19 @@ const GetInTouch = () => {
           target="blank"
         >
           <Linkedin
-            className="mr-8  cursor-pointer hover:text-gray-500"
+            className="mx-4  cursor-pointer hover:text-gray-500"
             strokeWidth={1.5}
           />
         </a>
         <a href="https://github.com/chantaseng" target="blank">
           <Github
-            className="mr-8 cursor-pointer  hover:text-gray-500"
+            className="mx-4 cursor-pointer  hover:text-gray-500"
             strokeWidth={1.5}
           />
         </a>
         <a href="mailto:chan.william.ts@gmail.com">
           <Mail
-            className="mr-8 cursor-pointer hover:text-gray-500"
+            className="mx-4 cursor-pointer hover:text-gray-500"
             strokeWidth={1.5}
           />
         </a>
