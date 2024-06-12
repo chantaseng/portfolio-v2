@@ -1,4 +1,4 @@
-import netflex from '../../assets/netflex/netflex1.png';
+import netflex from '../../assets/netflex/netflex.png';
 import netflexMobile from '../../assets/netflex/netflex-mobile.png';
 import { Plus } from 'lucide-react';
 
