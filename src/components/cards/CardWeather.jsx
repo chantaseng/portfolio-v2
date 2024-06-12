@@ -61,8 +61,10 @@ const CardWeather = () => {
                 Weather Forecast 🌦️
               </h1>
               <p className="mb-2">
-                State of the art weather forecast app, so you will always know
-                what to wear on your way out
+                A weather forecast app that provides real-time weather
+                information, forecasts, and other weather-related data, which
+                can help you make better decisions about your day-to-day
+                activities.
               </p>
             </div>
 

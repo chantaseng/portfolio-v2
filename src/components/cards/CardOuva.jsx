@@ -58,12 +58,8 @@ const CardOuva = () => {
                 Ouva 🌎
               </h1>
               <p className="mb-2">
-                OUVA is a travel planning application for travel enthusiasts.
-                This idea was conceptualized as part of my final team project at
-                Le Wagon Montreal. Crafted with Ruby, Rails, Javascript, HTML
-                and CSS, discover what our beautiful planet has to offer with
-                numerous off beaten path activities and marvelous destinations
-                to visit. It is only at OUVA, that you can feel alive again!
+                OUVA is a one-stop travel application. Travelers of all styles
+                can benefit from the features that OUVA offers.
               </p>
             </div>
 

@@ -59,8 +59,8 @@ const CardPigGame = () => {
                 Pig Game 🐷
               </h1>
               <p className="mb-2">
-                State of the art weather forecast app, so you will always know
-                what to wear on your way out
+                A multiplayer web game where the goal is to be the first to
+                score 100 points.
               </p>
             </div>
 

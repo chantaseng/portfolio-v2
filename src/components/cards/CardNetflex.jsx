@@ -29,13 +29,9 @@ const CardNetflex = () => {
                 Netflex 🍿
               </h1>
               <p className="mb-2">
-                Netflex is a clone website of Netflix where you can know what
-                are the hottest and trendiest movies and tv shows in Hollywood
-                right now. Intrigue by a movie, you can search on Netflex to get
-                more information about it. Whether it is about the release date
-                or your favorite actors or actresses. Don&apos;t forget to
-                create an account to save the movie in your watchlist so you can
-                watch them later!
+                A Netflix-based replica highlighting trending movies and series,
+                completed with the capability to register an account and
+                bookmark your preferred shows for future viewing!
               </p>
             </div>
 
