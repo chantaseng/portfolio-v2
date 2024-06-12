@@ -2,13 +2,15 @@ import { useState } from 'react';
 import homepage from '../../assets/weather-forecast/weather-app-typescript.png';
 import locationSearch from '../../assets/weather-forecast/location-search.png';
 import forecast from '../../assets/weather-forecast/weather-forecast.png';
+import main from '../../assets/weather-forecast/main.png';
+import search from '../../assets/weather-forecast/search.png';
+import result from '../../assets/weather-forecast/result.png';
 import { ChevronLeft, ChevronRight, Plus } from 'lucide-react';
 
 const CardWeather = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const slides = [homepage, locationSearch, forecast];
-  // const slides = [frontPage, search, result];
+  const slides = [main, search, result];
 
   const handlePrev = () => {
     setCurrentIndex((prevIndex) =>
