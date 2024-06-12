@@ -14,13 +14,22 @@ const GetInTouch = () => {
           href="https://www.linkedin.com/in/william-chan-1163b1248/"
           target="blank"
         >
-          <Linkedin className="mr-8  cursor-pointer" strokeWidth={1.5} />
+          <Linkedin
+            className="mr-8  cursor-pointer hover:text-gray-500"
+            strokeWidth={1.5}
+          />
         </a>
         <a href="https://github.com/chantaseng" target="blank">
-          <Github className="mr-8 cursor-pointer" strokeWidth={1.5} />
+          <Github
+            className="mr-8 cursor-pointer  hover:text-gray-500"
+            strokeWidth={1.5}
+          />
         </a>
         <a href="mailto:chan.william.ts@gmail.com">
-          <Mail className="mr-8 cursor-pointer" strokeWidth={1.5} />
+          <Mail
+            className="mr-8 cursor-pointer hover:text-gray-500"
+            strokeWidth={1.5}
+          />
         </a>
       </div>
       <div className="w-full h-28"></div>

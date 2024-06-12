@@ -18,7 +18,7 @@ const Footer = () => {
         <span>2024</span>
       </div>
       <span
-        className="text-white cursor-pointer hover:underline"
+        className="text-white cursor-pointer hover:underline hover:text-gray-500"
         onClick={scrollToTop}
       >
         William Chan

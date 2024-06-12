@@ -44,13 +44,19 @@ const CardComidaEats = () => {
                 {isReadMore ? (
                   <>
                     <Content />
-                    <span className="underline" onClick={toggleReadMore}>
+                    <span
+                      className="underline hover:text-gray-500"
+                      onClick={toggleReadMore}
+                    >
                       Close
                     </span>
                   </>
                 ) : (
-                  <span className="underline" onClick={toggleReadMore}>
-                    Intructions
+                  <span
+                    className="underline hover:text-gray-500"
+                    onClick={toggleReadMore}
+                  >
+                    Instructions
                   </span>
                 )}
               </span>
