@@ -6,6 +6,7 @@ export default {
       scale: {
         250: '2.5',
         300: '3',
+        350: '3.5',
       },
       keyframes: {
         scroll: {
